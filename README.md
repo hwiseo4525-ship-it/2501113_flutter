@@ -1,6 +1,10 @@
 # 2501113_flutter
 
 # 코드
+// AI 활용(바이브코딩)
+// 사용 도구 : ChatGPT
+// 활용 내용 : Flutter UI 설계와 데이터 구성
+
 import 'package:flutter/material.dart';
 
 void main() {
