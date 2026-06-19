@@ -73,7 +73,6 @@ class HomePage extends StatelessWidget {
       "food": "베이징덕",
       "tour": "만리장성, 자금성, 상하이 타워",
     },
-
     {
       "flag": "🇬🇧",
       "name": "영국",
@@ -82,7 +81,6 @@ class HomePage extends StatelessWidget {
       "food": "피시 앤 칩스",
       "tour": "빅벤, 버킹엄 궁전, 런던 아이",
     },
-
     {
       "flag": "🇮🇹",
       "name": "이탈리아",
@@ -91,7 +89,6 @@ class HomePage extends StatelessWidget {
       "food": "피자",
       "tour": "콜로세움, 피사의 사탑, 베네치아",
     },
-
     {
       "flag": "🇪🇸",
       "name": "스페인",
@@ -100,7 +97,6 @@ class HomePage extends StatelessWidget {
       "food": "파에야",
       "tour": "사그라다 파밀리아, 알함브라 궁전",
     },
-
     {
       "flag": "🇦🇺",
       "name": "호주",
@@ -109,7 +105,6 @@ class HomePage extends StatelessWidget {
       "food": "미트파이",
       "tour": "시드니 오페라하우스, 그레이트 배리어 리프",
     },
-
     {
       "flag": "🇨🇦",
       "name": "캐나다",
@@ -176,35 +171,26 @@ class CountryPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-
             Text(
               "수도 : ${country["capital"]}",
               style: const TextStyle(fontSize: 22),
             ),
-
             const SizedBox(height: 10),
-
             Text(
               "언어 : ${country["language"]}",
               style: const TextStyle(fontSize: 22),
             ),
-
             const SizedBox(height: 10),
-
             Text(
               "대표 음식 : ${country["food"]}",
               style: const TextStyle(fontSize: 22),
             ),
-
             const SizedBox(height: 10),
-
             Text(
               "관광지 : ${country["tour"]}",
               style: const TextStyle(fontSize: 22),
             ),
-
             const SizedBox(height: 30),
-
             const Center(
               child: Text(
                 "✈️ 즐거운 여행 되세요!",
